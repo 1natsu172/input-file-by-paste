@@ -10,9 +10,10 @@ chrome.runtime.onInstalled.addListener(() => {
   let contexts = [
     // "page",
     // "selection",
-    // "link",
-    "editable"
-    // "image"
+    "link",
+    "editable",
+    "image",
+    "all"
     // "video",
     // "audio"
   ] as unknown as chrome.contextMenus.ContextType[]
